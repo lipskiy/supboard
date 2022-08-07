@@ -745,7 +745,7 @@ ul {
    }
 
    .header__btn {
-      width: 75%;
+      min-width: 75%;
    }
 
    .header__content-box {
@@ -756,9 +756,9 @@ ul {
       margin-bottom: 30vh;
    }
 
-   .info::before {
+   /* .info::before {
       height: 120px;
-   }
+   } */
 
    .technology__btn {
       right: 0;
