@@ -735,6 +735,14 @@ ul {
       font-size: 18px;
       line-height: 20px;
    }
+
+   .header::before {
+      transform: translateY(45%)
+   }
+
+   .header::after {
+      transform: translateY(80%) rotate(180deg);
+   }
 }
 
 @media (max-width: 720px) {
@@ -756,9 +764,9 @@ ul {
       margin-bottom: 30vh;
    }
 
-   /* .info::before {
+   .info::before {
       height: 120px;
-   } */
+   }
 
    .technology__btn {
       right: 0;
@@ -798,7 +806,7 @@ ul {
    }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 425px) {
    .header__decor-text {
       display: none;
    }
